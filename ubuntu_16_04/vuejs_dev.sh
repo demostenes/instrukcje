@@ -1,6 +1,6 @@
 # instalacja z PPA na podstawie https://github.com/nodesource/distributions
 sudo apt install -y curl && \
-curl -sL https://deb.nodesource.com/setup_4.x | sudo -E bash - && \
+curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash - && \
 sudo apt install -y nodejs && \
 sudo npm install npm@latest -g && \
 sudo npm install -g vue-cli
